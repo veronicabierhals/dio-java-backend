@@ -1,4 +1,4 @@
-public class TipoDados {
+public class Tipo-Dados {
     public static void main(String[] args) {
         byte idade = 123;
         short ano = 2021;
