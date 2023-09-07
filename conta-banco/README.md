@@ -1,18 +1,15 @@
-## Getting Started
+# Desafio ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desafio Simulando Uma Conta Bancária Através Do Terminal/Console.
 
-## Folder Structure
+Esse desafio faz parte do módulo "Conhecendo a linguagem de programação Java"<br>
+do curso "Santander Bootcamp 2023 - Backend Java".
 
-The workspace contains two folders by default, where:
+## Teste do código
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Para testar o código pode-se utilizar os seguintes dados:<br>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Conta:** 1021<br>
+**Agencia:** 067-8<br>
+**Nome Cliente:** MARIO ANDRADE<br>
+**Valor para depósito:**	237.48
