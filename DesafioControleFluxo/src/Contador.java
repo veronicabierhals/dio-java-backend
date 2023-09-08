@@ -18,7 +18,7 @@ public class Contador {
                 throw new ParametrosInvalidosException();
             }
         } catch (ParametrosInvalidosException e) {
-            System.err.println("O primeiro parâmetro deve ser um número menor do que o segundo parâmetro12. Tente novamente.");
+            System.err.println("O primeiro parâmetro deve ser um número menor do que o segundo parâmetro. Tente novamente.");
         }
     }
 
