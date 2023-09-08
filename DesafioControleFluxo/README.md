@@ -2,7 +2,7 @@
 
 Esse desafio faz parte do Santander Bootcamp Java.
 
-O objetivo do desafio era utilizar condicionais, estruturas de repetição e a classe scanner.
+O objetivo do desafio era utilizar condicionais, estruturas de repetição, tratamento de exceções e a classe scanner.
 
 ## Estrutura de pastas
 
