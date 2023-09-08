@@ -1,29 +1,39 @@
 import java.util.Scanner;
 
 public class Contador {
-    public static void main(String[] args) {
-		Scanner terminal = new Scanner(System.in);
-		System.out.println("Digite o primeiro parâmetro");
-		int parametroUm = terminal.??;
-		System.out.println("Digite o segundo parâmetro");
-		int parametroDois = terminal.??;
-		
-		try {
-			//chamando o método contendo a lógica de contagem
-            if (parametroUm < parametroDois){
-                contar(parametroUm, parametroDois);
-            }
-			
-		
-		}catch (? exception) {
-			//imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
-		}
-		
-	}
 
-    static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
-        // validar se parametroUm é MAIOR que parametroDois e lançar a exceção
+    public static void main(String[] args) {
+        Scanner terminal = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro parâmetro");
+        int parametroUm = terminal.nextInt();
+
+        System.out.println("Digite o segundo parâmetro");
+        int parametroDois = terminal.nextInt();
+
+        try {
+            if (parametroUm < parametroDois) {
+                contar(parametroUm, parametroDois);
+            } else {
+                throw new ParametrosInvalidosException();
+            }
+        } catch (ParametrosInvalidosException e) {
+            System.err.println("O primeiro parâmetro deve ser um número menor do que o segundo parâmetro12. Tente novamente.");
+        }
+    }
+
+    static void contar(int parametroUm, int parametroDois) {
+        if (parametroUm > parametroDois) {
+            throw new ParametrosInvalidosException();
+        }
 
         int contagem = parametroDois - parametroUm;
-        // realizar o for para imprimir os números com base na variável contagem
+        for (int contador = 0; contador <= contagem; contador++) {
+            System.out.println(contador);
+        }
     }
+}
+
+class ParametrosInvalidosException extends RuntimeException {
+
+}
