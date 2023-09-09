@@ -1,3 +1,4 @@
+package Escola;
 // Criando objetos a partir da classe Student
 
 public class School {

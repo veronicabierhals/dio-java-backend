@@ -1,3 +1,4 @@
+package Escola;
 // Criando a classe Student
 // Com todas as características e compartamentos aplicados
 
